@@ -17,4 +17,5 @@ This repository consists of the microtasks stated for the project: [Build CHAOSS
   - [The tutorial link in the readme file is broken](https://github.com/chaoss/augur/issues/217)
 - Pull Requests:
   - [Implement closed_issues in githubapi](https://github.com/chaoss/augur/pull/218)
+  - [Implement metrics in githubapi](https://github.com/chaoss/augur/pull/222)
   - [Implemented metric 'Open Issues' in githubapi](https://github.com/chaoss/augur/pull/230)
