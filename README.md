@@ -1,8 +1,20 @@
 # CHAOSS-Microtasks
-A repository consists of the microtasks stated for the project: [Reporting CHAOSS mertics](https://github.com/chaoss/grimoirelab/issues/70)
+This repository consists of the microtasks stated for the project: [Build CHAOSS Risk and Growth Maturity and Decline Metrics in Augur
+](https://github.com/chaoss/wg-gmd/issues/82)
 
-- [ ] **Microtask 1:** Produce a listing of the number of new committers per month, and the number of commits for each of them, as a table and as a CSV file. Use the GrimoireLab enriched index for git.
-- [x] **[Microtask 2](https://github.com/parthsharma2/CHAOSS-Microtasks/tree/master/microtask2):** Produce a chart showing the distribution of time-to-close (using the corresponding field in the GrimoireLab enriched index for GitHub issues) for issues already closed, and opened during the last six months.
-- [ ] **Microtask 3:** Produce a listing of repositories, as a table and as CSV file, with the number of commits authored, issues opened, and pull requests opened, during the last three months, ordered by the total number (commits plus issues plus pull requests).
-- [ ] **Microtask 4:** Perform any other analysis you may find interesting, based on GrimoireLab enriched indexes for git and GitHub repositories.
-- [x] **[Microtask 5](https://github.com/parthsharma2/CHAOSS-Microtasks/tree/master/microtask5):** Produce a pull request for any of the GrimoireLab tools, and try to follow instructions until it gets accepted. Try do do something simple that you consider useful, not necessarily fix to the code: improvement of comments, documentation or testing will usually be easier to get accepted, and very useful for the project. Please, avoid just producing a random pull request just to have another microtask: the objective is not that you get one more microtask done, but that you understand how to interact with developers in the project contributing with something that could be useful).
+- [X] **Microtask 0:** Familiarize yourself with augur by downloading and configuring the dev branch. For a little more context about what we are trying to accomplish with Augur's prototyping, checkout the blog posts on the Augur Website. The community manager use case is especially interesting.
+- [X] **Microtask 1:** Using the Augur reference database included in the setup, configure a new metric from those available an not implemented in the "Metrics Status" page.
+  - [Closed Issues](https://github.com/chaoss/augur/commit/ef733533c4389628cfc814294a6509932447583d)
+  - [Code Commits](https://github.com/chaoss/augur/commit/65386bf8da4aab351266e72bff7d4d7e10bf95bd)
+  - [Contributors](https://github.com/chaoss/augur/commit/01e98b073c498c3a5be33b7493e2a2b3e9ddeb77)
+  - [Open Issues](https://github.com/chaoss/augur/commit/cf5467f52b16442520d75b5b59610e775fd3db8a)
+- [ ] **Microtask 2:** If you want, take a look at the configuration for VUE cards in the frontend/ folder for augur, google Vue, and see what kinds of new visualizations you might want to try out for some of the already existing metrics.
+- [X] **Microtask 3:** Make a pull request to update the newcomer documentation or, if you have questions about getting started in the steps above, open an issue in the Augur repository.
+
+## Other
+- Issues:
+  - [Some metrics show up twice in metrics_status](https://github.com/chaoss/augur/issues/231)
+  - [The tutorial link in the readme file is broken](https://github.com/chaoss/augur/issues/217)
+- Pull Requests:
+  - [Implement closed_issues in githubapi](https://github.com/chaoss/augur/pull/218)
+  - [Implemented metric 'Open Issues' in githubapi](https://github.com/chaoss/augur/pull/230)
