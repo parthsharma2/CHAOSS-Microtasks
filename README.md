@@ -19,3 +19,4 @@ This repository consists of the microtasks stated for the project: [Build CHAOSS
   - [Implement closed_issues in githubapi](https://github.com/chaoss/augur/pull/218)
   - [Implement metrics in githubapi](https://github.com/chaoss/augur/pull/222)
   - [Implemented metric 'Open Issues' in githubapi](https://github.com/chaoss/augur/pull/230)
+  - [Implement repository_size in githubapi](https://github.com/chaoss/augur/pull/257)
